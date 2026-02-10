@@ -1,0 +1,34 @@
+[project]
+name = "template-eda"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.8",
+    "matplotlib-fontja>=1.1.0",
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.0",
+    "plotly>=6.5.2",
+    "polars>=1.37.1",
+    "pyarrow>=23.0.0",
+    "seaborn>=0.13.2",
+    "statsmodels>=0.14.6",
+]
+
+[tool.ruff]
+unfixable = ["F401", "F403"]
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "I","W"] 
+ignore = ["F403", "F401"]
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F401"]
+
+
+[tool.ruff.lint.isort]
+known-first-party = ["src"]
+section-order = ["future", "standard-library", "third-party", "first-party", "local-folder"]
