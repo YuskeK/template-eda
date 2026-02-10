@@ -18,4 +18,21 @@
     "python.analysis.extraPaths": [
         "./src"
     ],
+    "github.copilot.chat.commitMessageGeneration.instructions": [
+        {
+        "text": "必ず日本語で、変更点を簡潔に記述してください"
+        },
+        {
+        "text": "README.mdに記載されているコミットメッセージ規約を遵守してください"
+        },
+        {
+        "file": "docs/COMMIT_CONVENTION.md",
+        "range": {
+            "startLineNumber": 3,
+            "startColumn": 1,
+            "endLineNumber": 23,
+            "endColumn": 1
+        }
+        }
+  ],
 }
