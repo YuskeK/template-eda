@@ -26,7 +26,7 @@
         "text": "README.mdに記載されているコミットメッセージ規約を遵守してください"
         },
         {
-        "file": "docs/COMMIT_CONVENTION.md",
+        "file": "docs/commit-convention.md",
         "range": {
             "startLineNumber": 1,
             "startColumn": 1,
